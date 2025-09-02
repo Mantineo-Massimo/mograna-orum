@@ -1,0 +1,50 @@
+# File di configurazione di Hugo (hugo.toml)
+
+baseURL = "/" # Verrà aggiornato automaticamente da GitHub Pages
+languageCode = "it-it"
+title = "Associazioni Morgana e Orum"
+theme = "hugo-arcana"
+
+# Impostazioni specifiche del tema Arcana
+[params]
+    subtitle = "Associazioni Studentesche dell'Università di Messina"
+    copyright = "© Associazioni Morgana e Orum. Tutti i diritti riservati."
+    design = "Design: [HTML5 UP](http://html5up.net)"
+    # logo = "images/logo.png" # Se avrete un logo, mettetelo in 'static/images/logo.png'
+
+# Menu di navigazione principale che apparirà in alto
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Chi Siamo"
+    url = "/chi-siamo/"
+    weight = 2
+
+[[menu.main]]
+    name = "Eventi"
+    url = "/eventi/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contatti"
+    url = "/contatti/"
+    weight = 4
+
+# Link ai Social Media nel footer (in fondo alla pagina)
+[[params.social]]
+    icon = "fa-instagram" # Icona da Font Awesome
+    name = "Instagram"
+    url = "https://www.instagram.com/morgana.unime/" # URL del profilo Instagram
+
+[[params.social]]
+    icon = "fa-facebook"
+    name = "Facebook"
+    url = "" # Lasciare vuoto o rimuovere il blocco se non c'è una pagina Facebook
+
+[[params.social]]
+    icon = "fa-envelope"
+    name = "Email"
+    url = "mailto:info@morganaorum.it" # Un'email di contatto generica (esempio)
