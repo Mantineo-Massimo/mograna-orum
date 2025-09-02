@@ -1,6 +1,6 @@
 # File di configurazione di Hugo (hugo.toml)
 
-baseURL = "/" # Verrà aggiornato automaticamente da GitHub Pages
+baseURL = "https://mantineo-massimo.github.io/mograna-orum/" # Verrà aggiornato automaticamente da GitHub Pages
 languageCode = "it-it"
 title = "Associazioni Morgana e Orum"
 theme = "hugo-arcana"
